@@ -1,8 +1,8 @@
 <?php
 
-define("WEB_TITLE","West Monument Bank"); // Change Bank Name
-define("WEB_URL","https://dashboard.westmonument.online"); // Change No "/" Ending splash
-define("WEB_EMAIL","contact@westmonument.online"); // Change Your Website Email
+define("WEB_TITLE","Azure Credit Union"); // Change Bank Name
+define("WEB_URL","https://dashboard.azurecreditunion.com"); // Change No "/" Ending splash
+define("WEB_EMAIL","contact@azurecreditunion.com"); // Change Your Website Email
 
 $web_url = WEB_URL;
 function support_plugin(){
@@ -11,9 +11,9 @@ function support_plugin(){
 
 function dbConnect(){
     $servername = "localhost";
-    $username = "multistream6_westmonument";//DATABASE USERNAME
-    $password = "+C@ppy126";//DATABASE PASSWORD
-    $database = "multistream6_westmonument";//DATABASE NAME
+    $username = "multistream6_azure_credit_union";//DATABASE USERNAME
+    $password = "000000";//DATABASE PASSWORD
+    $database = "multistream6_azure_credit_union";//DATABASE NAME
     $dns = "mysql:host=$servername;dbname=$database";
 
     try {
