@@ -290,11 +290,13 @@ unset($_SESSION['wire_transfer'], $_SESSION['dom_transfer']);
 
                             <?php
                             $acct_id = userDetails('id');
+                            $trans_type_wire = "wire transfer";
 
-                            $sql2 ="SELECT * FROM wire_transfer WHERE acct_id =:acct_id ORDER BY wire_id DESC";
+                            $sql2 ="SELECT * FROM wire_transfer WHERE acct_id =:acct_id AND trans_type =:trans_type_wire ORDER BY wire_id DESC";
                             $wire = $conn->prepare($sql2);
                             $wire->execute([
-                                'acct_id'=>$acct_id
+                                'acct_id'=>$acct_id,
+                                'trans_type_wire'=>$trans_type_wire
                             ]);
 
 
