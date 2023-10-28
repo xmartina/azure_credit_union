@@ -315,7 +315,9 @@ unset($_SESSION['wire_transfer'], $_SESSION['dom_transfer']);
                                     <td><?= $result['acct_country'] ?></td>
                                     <td><?= $result['acct_swift'] ?></td>
                                     <td><?= $result['acct_routing'] ?></td>
-                                    <td><?= $result['createdAt'] ?></td>
+<!--                                    <td>--><?php //= $result['createdAt'] ?><!--</td>-->
+                                    <td><?= $result['created_at'] ?></td>
+                                    <td><?= $result['time_created'] ?></td>
                                     <!--                        <td>--><?php //= $result['created_at'] ?><!--</td>-->
                                     <td>
                                         <?php
