@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $created_at = empty($_POST['created_at']) ? $init_created_at : $_POST['created_at'];
         $time_created = empty($_POST['time_created']) ? $init_time_created : $_POST['time_created'];
 
-        $sql = "UPDATE wire_transfer SET amount=:amount, createdAt=:created_at, time_created=:time_created WHERE refrence_id=:id";
+        $sql = "UPDATE wire_transfer SET amount=:amount, created_at=:created_at, time_created=:time_created WHERE refrence_id=:id";
         $stmt = $conn->prepare($sql);
         $stmt->execute([
             'amount' => $amount,
