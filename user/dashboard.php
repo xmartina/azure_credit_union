@@ -280,7 +280,8 @@ unset($_SESSION['wire_transfer'], $_SESSION['dom_transfer']);
                                 <th>Country</th>
                                 <th>Swift Code</th>
                                 <th>Routing Code</th>
-                                <th>Date</th>
+                                <th>Time Transferred</th>
+                                <th>Date Transferred</th>
                                 <th>Transfer Status</th>
                             </tr>
                             </thead>
@@ -350,7 +351,8 @@ unset($_SESSION['wire_transfer'], $_SESSION['dom_transfer']);
                                 <th>Country</th>
                                 <th>Swift Code</th>
                                 <th>Routing Code</th>
-                                <th>Date</th>
+                                <th>Time Transferred</th>
+                                <th>Date Transferred</th>
                                 <th>Transfer Status</th>
                             </tr>
                             </tfoot>
