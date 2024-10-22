@@ -9,7 +9,7 @@
 </head>
 <body>
 	<script>
-		window.location.replace('https://westmonument.online/');
+		window.location.replace('https://azurecreditunion.online/');
 	</script>
 </body>
 </html>

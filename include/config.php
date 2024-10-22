@@ -1,8 +1,8 @@
 <?php
 
 define("WEB_TITLE","Azure Credit Union"); // Change Bank Name
-define("WEB_URL","https://dashboard.azurecreditunion.com"); // Change No "/" Ending splash
-define("WEB_EMAIL","contact@azurecreditunion.com"); // Change Your Website Email
+define("WEB_URL","https://dashboard.azurecreditunion.online"); // Change No "/" Ending splash
+define("WEB_EMAIL","contact@azurecreditunion.online"); // Change Your Website Email
 
 $web_url = WEB_URL;
 function support_plugin(){
